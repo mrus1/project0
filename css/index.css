@@ -1,1 +1,22 @@
+body {
+  background-color: #c9c9c9;
+}
 
+#main-title {
+  margin-top: 20%;
+}
+
+div h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.row {
+  margin-top: 5rem;
+}
+
+@media (max-width: 575px) {
+  div h3 {
+    display: none;
+  }
+}
