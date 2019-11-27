@@ -1,0 +1,24 @@
+table {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+table th, table td {
+  border: 1px solid black;
+  padding: 12px;
+}
+table td:first-child {
+  color: #2a7507;
+  font-style: normal;
+}
+table th {
+  color: #2754db;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=software.css.map */
