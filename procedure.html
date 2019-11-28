@@ -27,10 +27,12 @@
 <!-- Content -->
     <div class="container">
 
-      <p>For first few set ups I conncted my server with keyboard and screen.</p>
+      <h2>Instalation and set up step by step</h2>
+
+      <p>For the first few settings, I conncted my server with keyboard and screen.</p>
 
       <ul>
-        <li>Install Debian on "server" machine</li>
+        <li>Install Debian on server machine</li>
         <li>Connect to my wireless internet</li>
         <li>Install openssh-server on server (Debian) and openssh-client on Ubuntu</li>
         <li>With <i>$ ip a</i> command I found my server ip address</li>
@@ -38,6 +40,26 @@
       </ul>
 
       <p>I was successfuly connected to my server and from now, further steps were done from Ubuntu computer (client).</p>
+
+      <ul>
+        <li>With <i>$ nano /etc/network/interfaces</i> and with help of Debian documentation, I configured static ip address for Wireless connection</li>
+        <li>I have made some security changes in <i>$ nano /etc/ssh/sshd_config</i></li>
+        <li>Public key Authentication <i>(with ssh_keygen, set passphrase, ssh_copy_id...)</i></li>
+      </ul>
+
+      <h3>Transfer files and directories using SCP</h3>
+      <h5>Files:</h5>
+      <p>$ scp -P < port_num > < source path > username@ip : < target path ></p>
+      <h5>Directories:</h5>
+      <p>$ scp -r -P < port_num > < source path > username@ip : < target path ></p>
+
+      <h3>Mount server using SSHFS</h3>
+      <p>This is used for easier and faster file transfer.</p>
+      <h5>Install sshfs:</h5>
+      <p>$ sudo apt-get install sshfs</p>
+      <h5>Mount the remote file system:</h5>
+      <p>$ sshfs < target ip >:/yourDir location/on/server</p>
+      <p>Now "yourDir" is mounted directorie and you can upload files and folders there.</p>
 
 
     </div>
