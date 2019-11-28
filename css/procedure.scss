@@ -1,3 +1,31 @@
+%instr-text {
+  text-align: justify;
+  letter-spacing: 1px;
+  font-style: normal;
+}
+
 body {
   background-color: #c9c9c9;
+}
+
+h2, h3 {
+  margin-top: 25px;
+  color: green;
+}
+
+ul {
+  @extend %instr-text;
+  list-style-type: square;
+  color: #1c34bd;
+}
+
+p {
+  font-style: italic;
+}
+
+.command {
+  @extend %instr-text;
+  display: inline;
+  background-color: lightyellow;
+  color: black;
 }
