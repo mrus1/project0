@@ -1,4 +1,4 @@
-%instr-text {
+%instruct-text {
   text-align: justify;
   letter-spacing: 1px;
   font-style: normal;
@@ -14,7 +14,7 @@ h2, h3 {
 }
 
 ul {
-  @extend %instr-text;
+  @extend %instruct-text;
   list-style-type: square;
   color: #1c34bd;
 }
@@ -24,7 +24,7 @@ p {
 }
 
 .command {
-  @extend %instr-text;
+  @extend %instruct-text;
   display: inline;
   background-color: lightyellow;
   color: black;
