@@ -12,20 +12,20 @@ body {
     font-size: 1.2rem;
     font-style: italic;
 
-    th, td {
-      border: 1px solid black;
-      padding: 12px;
-    }
+      th, td {
+        border: 1px solid black;
+        padding: 12px;
+      }
 
-    td:first-child {
-      color: #2a7507;
-      font-style: normal;
-    }
+      td:first-child {
+        color: #2a7507;
+        font-style: normal;
+      }
 
-    th {
-      color: #2754db;
-      font-style: normal;
-    }
+      th {
+        color: #2754db;
+        font-style: normal;
+      }
 
   }
 }
