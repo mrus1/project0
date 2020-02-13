@@ -2,8 +2,8 @@
 
 **Web Programming with Python and JavaScript**
 
-#### DIY Home Server is a website, built just with HTML, Bootstrap and Sass/Css.
-##### It contains 4 Html pages with informations about building of openSSH server for storing files.
+## DIY Home Server is a website, built just with HTML, Bootstrap and Sass/Css.
+#### It contains 4 Html pages with informations about building of openSSH server for storing files.
 
 ## 1. index.html
   It is used for "home page".
